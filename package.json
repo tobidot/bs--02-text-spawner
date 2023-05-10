@@ -1,12 +1,12 @@
 {
   "name": "bs--02-text-spawner",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "author": "tobidot <Object.name@live.de>",
   "license": "MIT",
   "scripts": {
     "dev": "vite serve",
     "preview": "vite preview",
-    "build": "vite build"
+    "build": "node ./bin/incrementVersion.js && vite build"
   },
   "dependencies": {},
   "devDependencies": {

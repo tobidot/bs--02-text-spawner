@@ -1,16 +1,5 @@
 # Baby Steps Library
 
-This project is an entry to my ["Baby-Steps"-project-series](https://www.game-object.de/projects)
+This is a library with features and helpers for typescript project development.
 
-## Description
-
-Spawn bouncing texts
-
-## Ideas/Todos
-
-Give control over the bouncing text content and spawn new text to bounce.
-
-## Library Addings
-
-- `KeyboardHandler`
-- `Vector2D.fromAngle`
+I will grow and extend the functionalities as I build more and more projects in the "Baby-Steps" project series.

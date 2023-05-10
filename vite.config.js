@@ -12,9 +12,11 @@ export default defineConfig({
         outDir: "../dist",
         emptyOutDir: true,
     },
-    plugins: [zipPack({
-        inDir: "./dist",
-        outDir: "./releases",
-        outFileName: "release-" + process.env.npm_package_name + "-" + process.env.npm_package_version + ".zip",
-    })],
+    plugins: [
+        zipPack({
+            inDir: "./dist",
+            outDir: "./releases",
+            outFileName: "release-" + process.env.npm_package_name + "-" + process.env.npm_package_version + ".zip",
+        })
+    ]
 });
